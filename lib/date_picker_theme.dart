@@ -26,7 +26,7 @@ const double DATETIME_PICKER_ITEM_TEXT_SIZE_BIG = 17;
 
 /// To support both stable and beta channels until
 /// 'DiagnosticableMixin' is officially deprecated.
-class DateTimePickerTheme with DiagnosticableMixin {
+class DateTimePickerTheme with Diagnosticable {
   final cancelDefault = const Text('OK');
 
   /// DateTimePicker theme.
